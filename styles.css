@@ -218,7 +218,7 @@ span {
 .about-img img{
     width: 26vw;
     border: .2rem solid var(--main-color);
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 0 0 1rem var(--main-color);
     animation: glow 1s infinite alternate;
 }
