@@ -350,7 +350,7 @@ span {
     height: 3.5rem;
     background: var(--text-color);
     border-radius: 50%;
-    animation: glow 1s infinite alternate;
+    animation: glowWhite 1s infinite alternate;
 }
 
 .portfolio-layer a:hover {
@@ -358,6 +358,14 @@ span {
     animation: none;
 }
 
+@keyframes glowWhite {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 0 0 1rem var(--text-color);
+  }
+}
 
 .portfolio-layer a i {
     font-size: 2.2rem;
