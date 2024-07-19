@@ -94,6 +94,7 @@ section {
 
 span {
     color: var(--main-color);
+    text-shadow: 0 0 1rem var(--main-color);
 }
 
 @keyframes glowText {
@@ -150,7 +151,7 @@ span {
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
-    animation: bounce 1.5s infinite;
+    animation: bounce 1.5s infinite, glow 1s infinite alternate;
 }
 
 .social-media a:hover {
