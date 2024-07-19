@@ -119,6 +119,7 @@ span {
     border-radius: 50%;
     border: .2rem solid var(--main-color);
     box-shadow: 0 0 1rem var(--main-color);
+    animation: glow 1s infinite alternate;
 }
 
 
@@ -212,6 +213,7 @@ span {
     width: 26vw;
     border: .2rem solid var(--main-color);
     box-shadow: 0 0 1rem var(--main-color);
+    animation: glow 1s infinite alternate;
 }
 
 .heading {
