@@ -50,6 +50,10 @@ section {
     cursor: pointer;
 }
 
+.header span {
+    animation: glowWhiteText 1s infinite alternate;
+}
+
 .logo {
     font-size: 2.5rem;
     color: var(--main-color);
