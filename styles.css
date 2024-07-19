@@ -188,6 +188,7 @@ span {
 
 .btn:hover {
     box-shadow: 0 0 1rem var(--main-color);
+    animation: none;
 }
 
 @keyframes glow {
