@@ -334,7 +334,16 @@ span {
 
 .portfolio-layer h4 {
     font-size: 3rem;
-    animation: glowText 1s infinite alternate;
+    animation: glowWhiteText 1s infinite alternate;
+}
+
+@keyframes glowWhiteText {
+  from {
+    text-shadow: none;
+  }
+  to {
+    text-shadow: 0 0 1rem var(--text-color);
+  }
 }
 
 .portfolio-layer p {
