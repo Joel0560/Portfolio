@@ -115,11 +115,10 @@ span {
 .home-img img {
     margin-left: 6rem;
     width: 30vw;
-    animation: floatImage 4s ease-in-out infinite;
+    animation: floatImage 4s ease-in-out infinite, glow 1s infinite alternate;
     border-radius: 50%;
     border: .2rem solid var(--main-color);
     box-shadow: 0 0 1rem var(--main-color);
-    animation: glow 1s infinite alternate;
 }
 
 
@@ -152,7 +151,7 @@ span {
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
-    animation: bounce 1.5s infinite;
+    animation: floatImage 4s ease-in-out infinite;
 }
 
 .social-media a:hover {
