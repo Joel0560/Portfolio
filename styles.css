@@ -140,7 +140,7 @@ span {
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
-    animation: bounce 1s infinite;
+    animation: bounce 1.5s infinite;
 }
 
 .social-media a:hover {
