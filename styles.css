@@ -94,6 +94,7 @@ section {
 span {
     color: var(--main-color);
     text-shadow: 0 0 1rem var(--main-color);
+    animation: glow 1s infinite alternate;
 }
 
 .home-content h1 {
@@ -173,7 +174,7 @@ span {
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
-    animation: glow 1.5s infinite alternate;
+    animation: glow 1s infinite alternate;
 }
 
 .btn:hover {
