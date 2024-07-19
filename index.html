@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+     <header class="header">
+        <a href="#" class="logo">My Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Experience</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+     </header>
+
+     <!-- Home Section -->
+      <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Joel Patrick Labay</h1>
+            <h3>And I'm an <span class="multiple-text"></span></h3>
+            <p></p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/joelpatricklby/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="mailto:labayjoelpatrick@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></i></a>
+                <a href="https://github.com/Joel0560" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/joel-patrick-labay-4741a1319/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="pdf/CV_Labay-Joel.pdf" class="btn" target="_blank">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/Sample.jpg" alt="">
+        </div>
+      </section>
+
+
+      <!-- About Section -->
+      <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/About Me Photo.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span class="about-text"></span></h2>
+            <h3>Undergraduate in Computer Science</h3>
+            <p>I am a fourth-year Bachelor of Science in Computer Science student at Mapúa Malayan Colleges Laguna. I have been a Dean’s Lister in my first, second, third, and fourth years of college. Throughout my college years, I have collaborated with my fellow computer science peers on developing various software projects, including mobile, game, and web applications. My dedication to learning and passion for technology drive me to continually expand my knowledge and skills.</p>
+            <a href="pdf/CV_Labay-Joel.pdf" class="btn" target="_blank">Read more</a>
+        </div>
+      </section>
+
+
+      <!-- Services Section -->
+      <section class="services" id="services">
+        <h2 class="heading">My Internship <span class="experience-text"></span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h3><span>Data Validation</span></h3>
+                <p>As an Intern in DepEd Santa Rosa, one of my tasks in the Planning and Research Section was to Validate various data including School Profiles, Teacher Subject Assignment, and Student Grades</p>
+                <a href="pdf/Labay-Practicum-Progress-Presentation.pdf" class="btn" target="_blank">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-chart-column"></i>
+                <h3><span>Enrollee Forecasting</span></h3>
+                <p>One of the tasks that was introduced and assigned to us by our Supervisor in our department are Forecasting Methods. In this specific task, we used a Forecasting Method to predict the possible number of Enrollees for the S.Y. 2025-2027.</p>
+                <a href="pdf/Labay-Practicum-Progress-Presentation.pdf" class="btn" target="_blank">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3><span>Web Development</span></h3>
+                <p>Our final task as Interns in DepEd Santa Rosa was to develop a web application to calculate various Performance Indicators of different Educational Levels for both Public and Private Schools in Santa Rosa City.</p>
+                <a href="pdf/Labay-Practicum-Progress-Presentation.pdf" class="btn" target="_blank">Read More</a>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- Portfolio Section -->
+       <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span class="projects-text"></span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/mathemagics.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Mathemagics</h4>
+                    <p>"Mathemagics" is a 2D Educational Mobile Game that combines mathematics and magic themes to engage young learners in learning the basic arithmetic operations. It was developed using Unity in collaboration with my Thesis Colleagues and is currently available in Play Store.</p>
+                    <a href="https://play.google.com/store/search?q=mathemagics&c=apps" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/mathemagics web.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Mathemagics Web App</h4>
+                    <p>"Mathemagics" Web App is a Web-based Analytics System that is used by the developers of "Mathemagics" to track the overall engagement of the users. It was developed using Next.JS in collaboration with my Thesis Colleagues and is currently deployed using Vercel.</p>
+                    <a href="https://mathemagics-app.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/deped.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Performance Indicator</h4>
+                    <p>DepEd Performance Indicator is a Web-based Application that is used to Compute various Performance Indicators of different Educational Levels. It was developed using ASP.NET in collaboration with my Co-Interns and is currently deployed using Azure.</p>
+                    <a href="https://depedperformanceindicator.azurewebsites.net/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/SCG Booking.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>South Country Garden</h4>
+                    <p>South Country Garden is a Web-based Application that is used for booking various events such as Birthdays, Weddings, and Other Events. It was developed using ASP.NET in collaboration with my Software Engineering Colleagues and was deployed using Azure.</p>
+                    <a href="https://github.com/Joel0560/South-Country-Garden-Booking.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- Services Section -->
+       <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <a href="mailto:labayjoelpatrick@gmail.com" class="btn" target="_blank">Submit Message</a>
+        </form>
+       </section>
+
+
+       <!-- Footer Section -->
+       <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Joel Patrick N. Labay</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+       </footer>
+        
+
+    <!-- SCROLL REVEAL JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- TYPED JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Main JS-->
+    <script src="main.js"></script>
+</body>
+</html>
