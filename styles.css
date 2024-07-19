@@ -51,6 +51,7 @@ section {
 }
 
 .header span {
+    color: var(--text-color);
     animation: glowWhiteText 1s infinite alternate;
 }
 
