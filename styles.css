@@ -52,7 +52,7 @@ section {
 
 .logo {
     font-size: 2.5rem;
-    color: var(--text-color);
+    color: var(--main-color);
     font-weight: 700;
     cursor: pointer;
     animation: glowText 1s infinite alternate;
@@ -94,7 +94,6 @@ section {
 
 span {
     color: var(--main-color);
-    text-shadow: 0 0 1rem var(--main-color);
 }
 
 @keyframes glowText {
