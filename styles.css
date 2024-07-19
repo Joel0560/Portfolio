@@ -94,7 +94,16 @@ section {
 span {
     color: var(--main-color);
     text-shadow: 0 0 1rem var(--main-color);
-    animation: glow 1s infinite alternate;
+    animation: glowText 1s infinite alternate;
+}
+
+@keyframes glowText {
+  from {
+    text-shadow: none;
+  }
+  to {
+    text-shadow: 0 0 1rem var(--main-color);
+  }
 }
 
 .home-content h1 {
