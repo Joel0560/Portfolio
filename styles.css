@@ -334,6 +334,7 @@ span {
 
 .portfolio-layer h4 {
     font-size: 3rem;
+    animation: glowText 1s infinite alternate;
 }
 
 .portfolio-layer p {
