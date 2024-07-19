@@ -439,7 +439,7 @@ span {
     .navbar {
         position: absolute;
         top: 100%;
-        left: 0;
+        right: 0;
         width: 100%;
         padding: 1rem 3%;
         background: var(--bg-color);
