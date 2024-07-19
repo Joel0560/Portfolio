@@ -55,6 +55,7 @@ section {
     color: var(--text-color);
     font-weight: 700;
     cursor: pointer;
+    animation: glowText 1s infinite alternate;
 }
 
 .navbar a {
@@ -94,7 +95,6 @@ section {
 span {
     color: var(--main-color);
     text-shadow: 0 0 1rem var(--main-color);
-    animation: glowText 1s infinite alternate;
 }
 
 @keyframes glowText {
