@@ -167,16 +167,26 @@ span {
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: none;
     font-size: 1.6rem;
     color: var(--bg-color);
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
+    animation: glow 1.5s infinite alternate;
 }
 
 .btn:hover {
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+@keyframes glow {
+  from {
     box-shadow: none;
+  }
+  to {
+    box-shadow: 0 0 1rem var(--main-color);
+  }
 }
 
 .about {
